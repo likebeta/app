@@ -55,8 +55,16 @@
 							</div>
 						</div>
 					</li>
-					
+
 					<li class="span4">
+						<div class="thumbnail">
+							<div class="caption">
+								<h3>note2site</h3>
+								<p>基于有道云笔记api开发的网站，将有道云笔记加壳后，以网站的形式呈现</p>
+								<p><a class="btn btn-primary" href="http://note2site.ixxoo.me" target="_blank">浏览</a> 
+								<a class="btn" href="https://github.com/likebeta/note2site" target="_blank">分享</a></p>
+							</div>
+						</div>
 					</li>
 				</ul>
 			</div>
