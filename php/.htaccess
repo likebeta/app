@@ -15,3 +15,12 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ /projects/search/$1
 RewriteCond %{HTTP_HOST} ^search.ixxoo.me$
 RewriteRule ^(/)?$ projects/search/ [L]
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^note2site.ixxoo.me$
+RewriteCond %{REQUEST_URI} !^/projects/note2site/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /projects/note2site/$1
+RewriteCond %{HTTP_HOST} ^note2site.ixxoo.me$
+RewriteRule ^(/)?$ projects/note2site/ [L]
