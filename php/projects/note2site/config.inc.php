@@ -7,17 +7,17 @@ $oauth_access_token = 'ec4087f1c03661637bc148f1f4a665bb';
 $oauth_access_secret = '598301bc3f0e4187bcb0b26482a06eb1';
 
 // db info
-//define('DB_MYSQL_HOST', "localhost");
-//define('DB_MYSQL_USERNAME', "root");
-//define('DB_MYSQL_PASSWORD', "359359");
-//define('DB_MYSQL_DBNAME', "note2site");
-//define('DB_MYSQL_PORT', "3306");
+define('DB_MYSQL_HOST', "localhost");
+define('DB_MYSQL_USERNAME', "root");
+define('DB_MYSQL_PASSWORD', "359359");
+define('DB_MYSQL_DBNAME', "note2site");
+define('DB_MYSQL_PORT', "3306");
 
-define('DB_MYSQL_HOST', $_ENV['OPENSHIFT_MYSQL_DB_HOST']);
-define('DB_MYSQL_USERNAME', $_ENV['OPENSHIFT_MYSQL_DB_USERNAME']);
-define('DB_MYSQL_PASSWORD', $_ENV['OPENSHIFT_MYSQL_DB_PASSWORD']);
-define('DB_MYSQL_DBNAME', $_ENV['OPENSHIFT_APP_NAME']);
-define('DB_MYSQL_PORT', $_ENV['OPENSHIFT_MYSQL_DB_PORT']);
+// define('DB_MYSQL_HOST', $_ENV['OPENSHIFT_MYSQL_DB_HOST']);
+// define('DB_MYSQL_USERNAME', $_ENV['OPENSHIFT_MYSQL_DB_USERNAME']);
+// define('DB_MYSQL_PASSWORD', $_ENV['OPENSHIFT_MYSQL_DB_PASSWORD']);
+// define('DB_MYSQL_DBNAME', $_ENV['OPENSHIFT_APP_NAME']);
+// define('DB_MYSQL_PORT', $_ENV['OPENSHIFT_MYSQL_DB_PORT']);
 
 // misc
 define('SITE_URL', 'http://note2site.ixxoo.me');

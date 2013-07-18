@@ -88,6 +88,7 @@ class preg_image_class
 	private $imgs;
 	function __construct($imgurls,$imgs)
 	{
+
 		$this->imgurls = $imgurls;
 		$this->imgs = $imgs;
 	}
@@ -103,6 +104,7 @@ class preg_image_class
 		}
 	}
 }
+
 class preg_attachment_class
 {
     private $imgurls;
