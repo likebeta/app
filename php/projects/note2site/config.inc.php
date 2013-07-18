@@ -20,7 +20,7 @@ define('DB_MYSQL_DBNAME', $_ENV['OPENSHIFT_APP_NAME']);
 define('DB_MYSQL_PORT', $_ENV['OPENSHIFT_MYSQL_DB_PORT']);
 
 // misc
-define('SITE_URL', 'http://www.note2site.com');
+define('SITE_URL', 'http://note2site.ixxoo.me');
 define('FLUSH_TOKEN', 'r4c0oifbhvat3dszm9nuyl6qpj5e2x7wkg81'); // token of flush
 define('PAGE_SUFFIX', '');	// url suffix
 ?>
