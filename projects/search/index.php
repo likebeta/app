@@ -7,14 +7,11 @@
 	<meta name="description" content="" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>网盘搜索 - 专业的网盘搜索引擎</title>
-	<!--[if lt IE 9]>
-	<script src="http://lib.ixxoo.me/html5/html5.js" ></script>
-	<![endif]-->
-	<script src="http://lib.ixxoo.me/jquery/1.9.1/jquery.min.js"></script>
-	<script src="http://lib.ixxoo.me/bootstrap/2.3.1/js/bootstrap.min.js"></script>
-	<script src="http://lib.ixxoo.me/html5/html5shiv.js"></script>
-	<link href="http://lib.ixxoo.me/bootstrap/2.3.1/css/bootstrap.min.css" rel="stylesheet" media="screen" />
-	<link href="http://lib.ixxoo.me/bootstrap/2.3.1/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen" />
+	<script src="http://cdn.staticfile.org/jquery/1.9.1/jquery.min.js"></script>
+	<script src="http://cdn.staticfile.org/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+	<script src="ihttp://cdn.staticfile.org/html5shiv/3.6.2/html5shiv.min.js"></script>
+	<link href="http://cdn.staticfile.org/twitter-bootstrap/2.3.1/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+	<link href="http://cdn.staticfile.org/twitter-bootstrap/2.3.1/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen" />
 	<link href="../../media/css/base.css" rel="stylesheet" media="screen" />
 </head>
 <body>
