@@ -6,14 +6,18 @@
 </head>
 <body>
 <?php
-require('config.php');
-require('oauth/ynote_client.php');
-require('oauth/ynote_parse.php');
+require('../config.inc.php');
+require('../oauth/ynote_client.php');
+require('../oauth/ynote_parse.php');
 
-if (!isset($_GET['token']) || $_GET['token'] !== $flush_token) {
+if (!isset($_GET['token']) || $_GET['token'] !== FLUSH_TOKEN) {
 	php_die('your sister, token error！');
 }
-
+$db_host = DB_MYSQL_HOST;
+$db_username = DB_MYSQL_USERNAME;
+$db_password = DB_MYSQL_PASSWORD;
+$db_name = DB_MYSQL_DBNAME;
+$db_port = DB_MYSQL_PORT;
 $mysqli = new mysqli($db_host, $db_username, $db_password, $db_name);
 
 if ($mysqli->connect_errno) {
